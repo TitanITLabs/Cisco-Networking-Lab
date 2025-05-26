@@ -14,3 +14,4 @@ This is a comprehensive Cisco Networking lab I created to gain hands-on experien
 
 This repository is structured into branches based on topic, with each lab focusing on a specific networking function or configuration challenge. Use the links above to explore each lab individually. Each file includes CLI configuration steps, topology diagrams, and explanations for commands used.
 
+Note: All completed labs are fully tested and documented. This repository is actively being organized and expanded by adding finished labs progressively.
