@@ -6,7 +6,7 @@ This is a comprehensive Cisco Networking lab I created to gain hands-on experien
 
 ## Table of Contents
 
-- [SSH Lab](https://github.com/TitanITLabs/Cisco-Networking-Lab/blob/ssh/SSH.md)
+- [SSH Lab](https://github.com/TitanITLabs/Cisco-Networking-Lab/blob/main/SSH.md)
 
 ---
 
