@@ -66,4 +66,4 @@ SWFloor6b(config-line)# exit
 SWFloor6b(config)# ip ssh version 2
 
 
-![Screenshot 2025-04-29 092145](https://github.com/user-attachments/assets/e49ef914-6467-46df-8e1d-65a2bc146ce4)
+![SSH Setup Screenshot](images/SSH_LAB.png)
