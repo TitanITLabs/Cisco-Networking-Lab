@@ -18,17 +18,17 @@ In this lab, I configured **static routes** for a network with 8 floors. Each fl
 - Redundancy: Primary and backup gateways per subnet
 - Routing Logic:
 
-  * Upstream (Floor 6B and below):
+  - Upstream (Floor 6B and below):
 
-  * 192.168.70.1 – Primary route
+  - 192.168.70.1 – Primary route
 
-  * 192.168.65.2 – Secondary/backup route
+  - 192.168.65.2 – Secondary/backup route
 
-  * Downstream (Floor 6B and above):
+  - Downstream (Floor 6B and above):
 
-  * 192.168.65.2 – Primary route
+  - 192.168.65.2 – Primary route
 
-  * 192.168.70.1 – Secondary/backup route
+  - 192.168.70.1 – Secondary/backup route
 
 ---
 
