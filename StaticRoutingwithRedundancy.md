@@ -23,6 +23,9 @@ In this lab, I configured **static routes** for a network with 8 floors. Each fl
 
 ---
 
+## 🧱 Topology
+![Topology Image](images/Topology.png)
+
 ## ⚙️ Configuration Snippet
 
 ```plaintext
@@ -34,4 +37,7 @@ ip route 10.10.15.0 255.255.255.0 192.168.65.2 5
 ip route 10.10.80.0 255.255.255.0 192.168.70.1
 ip route 10.10.80.0 255.255.255.0 192.168.65.2 5
 
-![Topology](images/Topology.png)
+```
+##Full Config 
+
+
