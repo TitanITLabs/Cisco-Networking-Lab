@@ -15,7 +15,7 @@ In this lab, I configured **static routes** for a network with 8 floors. Each fl
 ## 🧱 Network Design
 
 - Floors: 8 (Each on different subnets)
-- Redundancy: Primary and backup gateways per subnet
+- Redundancy: Primary and backup hop ips per subnet
 - Routing Logic:
 
   - Upstream (Floor 6B and above):
@@ -44,5 +44,5 @@ Below is the  upstream static routing configuration used in this lab, including 
 ## 📝 Notes
 
 - I was assigned **Floor 6B**, so I configured static routes **upstream and downstream** starting from my floor.
-- For my configuration, the **primary gateway** was `192.168.70.1`, and the **backup** was `192.168.65.2` for upstream routing.
+- For my configuration, the **next hop ip address** was `192.168.70.1`, and the **backup** was `192.168.65.2` for upstream routing.
 - I **no longer have access to the switch**, so I couldn’t document the downstream configuration (where the backup became primary and vice versa).
