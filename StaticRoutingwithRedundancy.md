@@ -16,9 +16,19 @@ In this lab, I configured **static routes** for a network with 8 floors. Each fl
 
 - Floors: 8 (Each on different subnets)
 - Redundancy: Primary and backup gateways per subnet
-- Routers:
-  - `192.168.70.1` – Primary route
-  - `192.168.65.2` – Secondary/backup route
+- Routing Logic:
+
+  * Upstream (Floor 6B and below):
+
+  * 192.168.70.1 – Primary route
+
+  * 192.168.65.2 – Secondary/backup route
+
+  * Downstream (Floor 6B and above):
+
+  * 192.168.65.2 – Primary route
+
+  * 192.168.70.1 – Secondary/backup route
 
 ---
 
@@ -35,4 +45,4 @@ Below is the  upstream static routing configuration used in this lab, including 
 
 - I was assigned **Floor 6B**, so I configured static routes **upstream and downstream** starting from my floor.
 - For my configuration, the **primary gateway** was `192.168.70.1`, and the **backup** was `192.168.65.2` for upstream routing.
-- I do **not have access to the switch anymore**, so I couldn't document the downstream routes (where the backup becomes primary and vice versa).
+- I **no longer have access to the switch**, so I couldn’t document the downstream configuration (where the backup became primary and vice versa).
