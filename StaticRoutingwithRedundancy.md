@@ -9,7 +9,6 @@ In this lab, I configured **static routes** for a network with 8 floors. Each fl
 - Set up static routes for each floor
 - Implement a primary and backup route
 - Use `ip route` to simulate failover routing
-- Enable SSH access on the router
 
 ---
 
@@ -26,19 +25,11 @@ In this lab, I configured **static routes** for a network with 8 floors. Each fl
 ## 🧱 Topology
 ![Topology Image](images/Topology.png)
 
-## ⚙️ Configuration Snippet
+## ⚙️ Configuration
 
-```plaintext
-ip route 10.10.10.0 255.255.255.0 192.168.70.1
-ip route 10.10.10.0 255.255.255.0 192.168.65.2 5
-ip route 10.10.15.0 255.255.255.0 192.168.70.1
-ip route 10.10.15.0 255.255.255.0 192.168.65.2 5
-...
-ip route 10.10.80.0 255.255.255.0 192.168.70.1
-ip route 10.10.80.0 255.255.255.0 192.168.65.2 5
+Below is the full static routing configuration used in this lab, including primary and backup routes for all 8 floors:
 
-```
-## ⚙️ Full Configuration 
-![Ip Routes](images/IpRouting.png)
+![Static Routes](images/IpRouting.png)
+
 
 
