@@ -1,4 +1,4 @@
-# Cisco-Networking-Lab
+# Cisco Networking Lab
 
 ## 🔐 SSH Setup
 
