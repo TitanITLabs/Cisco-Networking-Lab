@@ -38,6 +38,7 @@ ip route 10.10.80.0 255.255.255.0 192.168.70.1
 ip route 10.10.80.0 255.255.255.0 192.168.65.2 5
 
 ```
-##Full Config 
+## ⚙️ Full Configuration 
+![Ip Routes](images/IpRouting.png)
 
 
