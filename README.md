@@ -8,6 +8,8 @@ This is a comprehensive Cisco Networking lab I created to gain hands-on experien
 
 - [SSH Lab](https://github.com/TitanITLabs/Cisco-Networking-Lab/blob/main/SSH.md)
 - [IP Routing](https://github.com/TitanITLabs/Cisco-Networking-Lab/blob/main/StaticRoutingwithRedundancy.md)
+- [DHCP Server Configuration Lab](https://github.com/TitanITLabs/Cisco-Networking-Lab/blob/main/DHCP_Server_Configuration_Lab.md)
+
 
 ---
 
