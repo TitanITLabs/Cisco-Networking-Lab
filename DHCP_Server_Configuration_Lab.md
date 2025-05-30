@@ -11,7 +11,7 @@ In this lab, I configured **DHCP pools** for different VLANs, created **excluded
 
 ---
 
-## Network Breakdown
+## 🌐 Network Breakdown
 
 Each VLAN was configured with its own DHCP pool. Excluded address ranges were reserved for gateways, printers, and servers to avoid IP conflicts. The pools are as follows:
 
@@ -36,7 +36,16 @@ This diagram illustrates the device layout per VLAN and their connection to the 
 
 ---
 
-## 🖼️ Excluded Address Ranges
+## 🚫 Excluded Address Ranges
 
 ![Excluded Ranges](images/DHCP_Exclusions.png)
+
+## 📝 Notes
+
+DHCP Pool Command: Sorry for the cutoff in the DHCP pool command for the guest VLAN. The complete command is:
+network 10.10.65.240 255.255.255.248
+default-router 10.10.65.241 
+dns-server 10.10.65.242
+
+DHCP Exclusions: Only three IP addresses are excluded from the DHCP pool because this subnet is small and part of the guest VLAN. Since we don’t know how many guests will connect each day, the network uses NAT to simplify IP management—allowing all guests to share one private IP before being translated to a public IP. This approach makes it easier to manage limited IP addresses while avoiding conflicts.
 
