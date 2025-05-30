@@ -40,6 +40,16 @@ This diagram illustrates the device layout per VLAN and their connection to the 
 
 ![Excluded Ranges](images/DHCP_Exclusions.png)
 
+---
+
+### DHCP Parameter Explanation
+
+- **`ip dhcp excluded-address`:** Prevents certain IP addresses from being assigned via DHCP, usually for static devices like gateways or servers.  
+- **`network`:** Defines the subnet range for the DHCP pool.  
+- **`default-router`:** Sets the default gateway IP clients use to send traffic outside their subnet.  
+- **`dns-server`:** Specifies the DNS server IP addresses clients will use to resolve domain names.
+
+
 ## 📝 Notes
 
 DHCP Pool Command: Sorry for the cutoff in the DHCP pool command for the guest VLAN. The complete command is:
